@@ -122,8 +122,37 @@ nav ul.menu-right li {
 
 /* SECTION - Subcription Plans */
 #sub-plans {
-    background-color: pink;
+    padding: 300px 0;
+    
+    /* TEST */
     height: 300px;
+}
+
+#sub-plans h2 {
+    font-size: 47px;
+    margin-bottom: 70px;
+}
+
+#sub-plans .selector {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#sub-plans .selector > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sub-plans .selector span {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    border: 1px solid #dbdbdd;
+    line-height: 21px;
+}
+
+#sub-plans .selector span.checked {
+    border: 5px solid #0061ff;
 }
 
 /* FOOTER */
