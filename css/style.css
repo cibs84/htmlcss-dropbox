@@ -11,17 +11,64 @@ ul {
 
 a{
     color: inherit;
+    text-decoration: none;
 }
 
 img {
     width: 100%;
+    display: block;
 }
 
 /* COMMON */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 
+    /* TEST */
+    background-color: lightblue;
+}
+
+.container-small {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.container-large {
+    width: 75;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.btn {
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 20px;
+}
 
 /* HEADER */
+header {
+    background-color: white;
+    padding: 25px 20px;
+}
 
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu Left */
+nav ul.menu-left li {
+    margin-right: 45px;
+    line-height: 30px;
+}
+
+/* Menu Right */
+nav ul.menu-right li {
+    margin-left: 45px;
+}
 
 /* MAIN */
 
