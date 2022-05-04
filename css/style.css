@@ -41,11 +41,21 @@ body {
 }
 
 .btn {
-    color: white;
-    background-color: #0061ff;
     padding: 8px 20px;
     font-size: 16px;
     text-align: center;
+    display: block;
+}
+
+.btn-white {
+    color: black;
+    background-color: white;
+    border: 1px solid black;  
+}
+
+.btn-blue {
+    color: white;
+    background-color: #0061ff;    
 }
 
 .col-text h2 {
@@ -234,7 +244,7 @@ nav ul.menu-right li {
     margin: 70px 0 30px;
 }
 
-#sub-plans .card-top .card-body .cta > a {
+#sub-plans .card-top .card-body .cta .buy-now {
     text-decoration: underline;
     color: #176fff;
 }
