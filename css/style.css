@@ -58,12 +58,23 @@ body {
     background-color: #0061ff;    
 }
 
-.col-text h2 {
-    margin-bottom: 30px;
+.text-link {
+    text-decoration: underline;
+    color: black;
 }
 
 .col-text p {
     margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 47px;
+    margin-bottom: 70px;
+}
+
+.box-title {
+    margin-bottom: 30px;
+    font-size: 27px;
 }
 
 /* HEADER */
@@ -138,11 +149,6 @@ nav ul.menu-right li {
 /* SECTION - Subcription Plans */
 #sub-plans {
     padding: 300px 0;
-}
-
-#sub-plans h2 {
-    font-size: 47px;
-    margin-bottom: 70px;
 }
 
 #sub-plans .selector {
@@ -298,7 +304,6 @@ nav ul.menu-right li {
 }
 
 #contact-partner .columns {
-    padding-bottom: 170px;
     justify-content: space-between;
 }
 
@@ -306,7 +311,7 @@ nav ul.menu-right li {
     width: 55%;
 }
 
-#contact-partner .columns .col-text {
+.col-text {
     width: 40%;
     padding-top: 35px;
 }
@@ -315,7 +320,18 @@ nav ul.menu-right li {
     line-height: 30px;
 }
 
-/* FOOTER */
+/* SECTION - Feautures */
+#features .flex-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
-width: 40%;
-padding-top: 35px;
+#features .flex-container .col {
+    width: calc((100% / 3) - 50px);
+}
+
+#features .flex-container .card {
+    padding-bottom: 130px;
+}
+
+/* FOOTER */
