@@ -63,6 +63,11 @@ body {
     color: black;
 }
 
+.link-blue {
+    text-decoration: underline;
+    color: #176fff;
+}
+
 .col-text p {
     margin-bottom: 40px;
 }
@@ -85,6 +90,10 @@ header {
 
 nav {
     justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
     align-items: center;
 }
 
@@ -250,11 +259,6 @@ nav ul.menu-right li {
     margin: 70px 0 30px;
 }
 
-#sub-plans .card-top .card-body .cta .buy-now {
-    text-decoration: underline;
-    color: #176fff;
-}
-
 /* Subcription Plans - Card-Bottom */
 #sub-plans .columns .col .card .card-bottom {
     background-color: white;
@@ -333,5 +337,20 @@ nav ul.menu-right li {
 #features .flex-container .card {
     padding-bottom: 130px;
 }
+
+
+/* SECTION - CTA */
+#cta {
+    padding-bottom: 50px
+}
+
+#cta .container-small > div {
+    width: 55%;
+}
+
+#cta h2 {
+    margin-bottom: 30px;
+}
+
 
 /* FOOTER */
