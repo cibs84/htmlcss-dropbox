@@ -48,6 +48,10 @@ body {
     text-align: center;
 }
 
+.col-text h2 {
+    margin-bottom: 30px;
+}
+
 .col-text p {
     margin-bottom: 40px;
 }
@@ -171,13 +175,13 @@ nav ul.menu-right li {
 /* Subcription Plans - Card */
 #sub-plans .columns .col .card {
     font-size: 16px;
-    border: 1px solid black;
+    border: 1px solid #dbdbdd;
 }
 
 #sub-plans .card-head {
     text-align: center;
     padding: 10px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dbdbdd;
     font-size: 18px;
 }
 
@@ -254,7 +258,7 @@ nav ul.menu-right li {
 /* Subcription Plans - Card Enterprise */
 #sub-plans .plan-enterprise {
     margin-top: 50px;
-    border: 1px solid black;
+    border: 1px solid #dbdbdd;
 }
 
 #sub-plans .col-enterprise.card-body .name-price {
@@ -278,5 +282,30 @@ nav ul.menu-right li {
     color: black;
 }
 
+/* SECTION - Contact Partner */
+#contact-partner {
+    padding-bottom: 170px;
+}
+
+#contact-partner .columns {
+    padding-bottom: 170px;
+    justify-content: space-between;
+}
+
+#contact-partner .columns .col-image {
+    width: 55%;
+}
+
+#contact-partner .columns .col-text {
+    width: 40%;
+    padding-top: 35px;
+}
+
+#contact-partner .columns .col-text p {
+    line-height: 30px;
+}
 
 /* FOOTER */
+
+width: 40%;
+padding-top: 35px;
