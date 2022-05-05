@@ -483,3 +483,51 @@ nav ul.menu-right li {
 
 
  /* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer hr {
+    width: 7%;
+    border-color: #a4a4a4;
+}
+
+/* Footer-Top */
+.footer-top {
+    justify-content: space-between;
+    padding: 130px 0;
+}
+
+.footer-top .col {
+    width: calc((100% / 5) - 100px);
+}
+
+.footer-top .col h3 {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.footer-top .col ul {
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Footer-Bottom */
+.footer-bottom {
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+.footer-bottom .language {
+    font-size: 14px;
+}
+
+.footer-bottom .fa-globe-americas {
+    font-size: 16px;
+}
+
+.footer-bottom .fa-caret-up {
+    font-size: 12px;
+}
