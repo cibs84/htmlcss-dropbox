@@ -438,8 +438,6 @@ nav ul.menu-right li {
     background-color: #ffd830;
 }    
 
-
-
 /* SECTION - CTA Free Trial */
 #free-trial {
     background-color: #b4d0e7;
@@ -462,4 +460,26 @@ nav ul.menu-right li {
     margin-bottom: 0;
 }
  
+/* SECTION - FAQ */
+#faq {
+    padding: 130px 0;
+}
+
+#faq .row {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdd;
+    padding: 35px 0;
+}
+
+#faq .row:first-of-type {
+    border-top: 1px solid #dbdbdd;
+}
+
+#faq .row .faq-icon {
+    margin-right: 35px;
+    font-size: 20px;
+}
+
+
  /* FOOTER */
