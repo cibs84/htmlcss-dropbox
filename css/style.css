@@ -44,7 +44,7 @@ body {
     padding: 8px 20px;
     font-size: 16px;
     text-align: center;
-    display: block;
+    display: inline-block;
 }
 
 .btn-white {
@@ -66,6 +66,11 @@ body {
 .link-blue {
     text-decoration: underline;
     color: #176fff;
+}
+
+.col-text {
+    width: 40%;
+    padding-top: 35px;
 }
 
 .col-text p {
@@ -106,7 +111,6 @@ nav ul {
 /* Menu Left */
 nav ul.menu-left li {
     margin-right: 45px;
-    line-height: 30px;
 }
 
 nav ul.menu-left .logo img {
@@ -143,6 +147,7 @@ main {
 /* Jumbotron: Col-Text */
 #jumbotron .col-text {
     width: 30%;
+    padding: 0;
 }
 
 #jumbotron .col-text .cta {
@@ -173,12 +178,12 @@ main {
     padding: 300px 0 200px;
 }
 
-#sub-plans .selector {
+#sub-plans .type-payment .selector {
     display: inline-block;
     margin-right: 20px;
 }
 
-#sub-plans .selector > * {
+#sub-plans .type-payment .selector > * {
     display: inline-block;
     vertical-align: middle;
 }
@@ -188,7 +193,6 @@ main {
     height: 21px;
     border-radius: 50%;
     border: 1px solid #dbdbdd;
-    line-height: 21px;
 }
 
 #sub-plans .selector span.checked {
@@ -233,10 +237,6 @@ main {
 }
 
 /* Subcription Plans - Card-Top */
-#sub-plans .columns .col .card .card-top {
-    background-color: white;
-}
-
 #sub-plans .card-body,
 #sub-plans .card-bottom {
     padding: 30px;
@@ -269,13 +269,11 @@ main {
 
 #sub-plans .card-top .card-body .cta .btn {
     width: 100%;
-    text-align: center;
     margin: 70px 0 30px;
 }
 
 /* Subcription Plans - Card-Bottom */
 #sub-plans .columns .col .card .card-bottom {
-    background-color: white;
     padding-bottom: 154px;
 }
 
@@ -327,11 +325,6 @@ main {
 
 #contact-partner .columns .col-image {
     width: 55%;
-}
-
-.col-text {
-    width: 40%;
-    padding-top: 35px;
 }
 
 #contact-partner .columns .col-text p {
