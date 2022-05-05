@@ -140,6 +140,10 @@ nav ul.menu-right li {
     margin-top: 20px;
 }
 
+#jumbotron .col-text .cta a {
+    width: 55%;
+}
+
 #jumbotron .col-text .cta div {
     margin-top: 20px;
     font-size: 15px;
@@ -157,7 +161,7 @@ nav ul.menu-right li {
 
 /* SECTION - Subcription Plans */
 #sub-plans {
-    padding: 300px 0;
+    padding: 300px 0 200px;
 }
 
 #sub-plans .selector {
@@ -336,13 +340,13 @@ nav ul.menu-right li {
 }
 
 #features .flex-container .card {
-    padding-bottom: 130px;
+    padding-bottom: 100px;
 }
 
 
 /* SECTION - CTA */
 #cta {
-    padding-bottom: 50px
+    padding: 80px 0 50px;
 }
 
 #cta .container-small > div {
@@ -353,38 +357,88 @@ nav ul.menu-right li {
     margin-bottom: 30px;
 }
 
-/* SECTION - Customers */
-#customers {
+/* SECTION - Partners */
+#partners {
     justify-content: space-between;
+    height: 600px;
 }
 
-#customers .col-left, 
-#custumers .col-right {
-    width: 300px;
-    background-color: lightcoral;
-    height: 300px;
-    border: 1px solid black;
+#partners .col-left, 
+#partners .col-right {
+    width: 30%;
+    height: 100%;
+    flex-wrap: wrap;
 }
 
-#customers .col-center {
+#partners .col-center {
     width: 40%;
+    height: 100%;
     background-color: #f5f5f5;
     padding: 60px;
 }
 
-#customers .col-center p {
+#partners .col-center p {
     padding: 60px 0;
 }
 
-#customers .col-center hr {
+#partners .col-center hr {
     border: 1px solid #e1e1e2;
     width: 10%;
 }
 
-#customers img {
+#partners .col-center img {
     width: 150px;
     padding-bottom: 60px;
 }
+
+#partners .card {
+    width: 50%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#partners .card img {
+    filter: invert(1);
+}
+
+/* Colored Cards - COL-LEFT */
+#partners .col-left .card:nth-child(1) {
+    background-color: #a2d39b;
+    border: 15px solid #d0e9cd;
+}    
+
+#partners .col-left .card:nth-child(2) {
+    background-color: #61082b;
+}    
+
+#partners .col-left .card:nth-child(3) {
+    background-color: #0093ce;
+}    
+
+#partners .col-left .card:nth-child(4) {
+    background-color: #ff1c1c;
+}    
+
+/* Colored Cards - COL-RIGHT */
+#partners .col-right .card:nth-child(1) {
+    background-color: #d5001f;
+}    
+
+#partners .col-right .card:nth-child(2) {
+    background-color: #b4d0e7;
+}    
+
+#partners .col-right .card:nth-child(3) {
+    background-color: #0d2481;
+}    
+
+#partners .col-right .card:nth-child(4) {
+    background-color: #ffd830;
+}    
+
+
 
 /* SECTION - CTA Free Trial */
 #free-trial {
@@ -404,8 +458,8 @@ nav ul.menu-right li {
  
  #free-trial h2 {
     color: #61082b;
-    font-size: ;
     width: 55%;
+    margin-bottom: 0;
 }
  
  /* FOOTER */
